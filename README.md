@@ -22,16 +22,16 @@ Like binary heaps, d-ary heaps are an in-place data structure that uses no addit
     <th>Worst time complexity</th>
   </tr>
   <tr>
-    <td>`insert`</td>
-    <td>`O(log n / log d)`</td>
+    <td><code>insert</code></td>
+    <td><code>O(log n / log d)</code></td>
   </tr>
   <tr>
-    <td>`deleteMin`</td>
-    <td>`O(d log n / log d)`</td>
+    <td><code>deleteMin</code></td>
+    <td><code>O(d log n / log d)</code></td>
   </tr>
     <tr>
-      <td>`heapify`</td>
-      <td>`O(n)`</td>
+      <td><code>heapify</code></td>
+      <td><code>O(n)</code></td>
     </tr>
 </table>
 
@@ -57,12 +57,12 @@ it finds a suitable spot for the new value (where the parent has a lower value t
     <th>Index</th>
   </tr>
   <tr>
-    <td>child `k` of node `i`</td>
+    <td>child <code>k</code> of node <code>i</code></td>
     <td>`d*i + k + 1`</td>
   </tr>
   <tr>
-    <td>parent of node `i`</td>
-    <td>`floor((i-1)/d)`</td>
+    <td>parent of node <code>i</code></td>
+    <td><code>floor((i-1)/d)</code></td>
   </tr>
 </table>
 
