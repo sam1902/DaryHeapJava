@@ -14,6 +14,8 @@ allowing them to run more quickly in practice despite having a theoretically lar
 
 Like binary heaps, d-ary heaps are an in-place data structure that uses no additional storage beyond that needed to store the array of items in the heap.
 
+*From [Wikipedia](https://www.wikiwand.com/en/D-ary_heap)*
+
 ## Optimality
 
 <table>
@@ -86,3 +88,7 @@ If one sets the inner array data structure to an arbitrary array of comparable e
 in any order. 
 One can then call `heapify`, and finally calls `deleteMin` for each element of the queue, the
 elements coming will be the sorted elements of the initial array, hence *HeapSort* is born.
+
+## Credits
+All illustrations from [Miklós Csűrös](https://www.iro.umontreal.ca/~csuros/)'s IFT2015 
+*PDF* course from [UdeM](https://umontreal.ca/). 
