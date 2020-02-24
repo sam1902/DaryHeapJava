@@ -38,6 +38,10 @@ public class PriorityQueue<T> extends AbstractQueue<T> {
         this(arity, DEFAULT_INITIAL_CAPACITY, null);
     }
 
+    public PriorityQueue(int arity, Comparator<? super T> comparator){
+        this(arity, DEFAULT_INITIAL_CAPACITY, comparator);
+    }
+
     public PriorityQueue(int arity, int initialCapacity){
         this(arity, initialCapacity, null);
     }
